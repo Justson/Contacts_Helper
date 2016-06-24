@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1f2f3" >
+    
+    <include 
+        layout="@layout/header_blue"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+
+    
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:orientation="horizontal"
+       android:gravity="center">
+       
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/text_out"
+           android:text="SD卡还剩余的空间:"
+           android:textColor="#3d77c0"/>
+       
+         <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/overplus_out_textview"
+           android:text="3.15GB"
+           android:textColor="#3d77c0"/>
+       
+       
+   </LinearLayout>
+    
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="0.1dp"
+       android:background="#3d77c0"
+       android:layout_marginLeft="40dp"/>
+   
+   <RelativeLayout 
+       android:layout_width="match_parent"
+       android:layout_height="45dp"
+       android:layout_marginTop="5dp">
+         
+       <ImageView 
+           android:layout_width="30dp"
+           android:layout_height="30dp"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="10dp"
+           android:id="@+id/image_out_imageview_"
+           android:src="@drawable/contact__"/>
+       
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="联系人"
+           android:textColor="#999999"
+           android:id="@+id/contact_out_textview"
+           android:layout_toRightOf="@+id/image_out_imageview_"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="20dp"
+           android:textSize="18sp"/>
+       
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/number_out_textview"
+           android:textColor="#999999"
+           android:textSize="16sp"
+           android:layout_toRightOf="@+id/contact_out_textview"
+           android:layout_centerVertical="true"
+           android:text="90"
+           android:layout_marginLeft="25dp"/>
+       
+       <ImageView 
+           android:layout_width="20dp"
+           android:layout_height="20dp"
+           android:src="@drawable/combine_sucess"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="10dp"/>
+       
+   </RelativeLayout>
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="0.1dp"
+       android:background="#3d77c0"
+       android:layout_marginLeft="40dp"/>
+   
+    
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:gravity="bottom|center">
+         <Button 
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             style="@style/AppTheme"
+             android:background="#00bcd2"
+             android:text="导入SD卡"
+             android:textSize="16sp"
+             android:textColor="#ffffff"
+             android:id="@+id/out_out_button"/>
+     </LinearLayout>
+    
+</LinearLayout>

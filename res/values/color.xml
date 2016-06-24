@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <color name="bule">#00ffff</color>
+    <color name="white">#ffffff</color>
+    <color name="gray_">#33333333</color>
+    <color name="seal_blue">#3d77c0</color>
+    <color name="tint_gray">#f1f2f3</color>
+    
+    <color name="red">#FFC93437</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#FF34A350</color>
+    
+    
+    <color name="fade_gray">#10f1f1f1</color>
+</resources>

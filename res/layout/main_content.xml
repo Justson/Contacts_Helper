@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qypt.just_syn_asis_version1_0.custom_view.CustomLinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/content_RelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@drawable/content_bg_next"
+         >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/morew" />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_bar_name"
+            android:text="通讯帮手"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:layout_toRightOf="@id/button"
+            android:layout_alignBaseline="@+id/button"
+            android:layout_marginLeft="15dp"/>
+        
+        
+        <Button 
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:id="@+id/doc_suicase_Button"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"/>
+        
+         <Button 
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:id="@+id/moon_Button"
+            android:layout_marginLeft="8dp"
+            android:background="@null"
+            android:layout_toLeftOf="@+id/doc_suicase_Button"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="5dp"/>
+         
+         
+         <LinearLayout 
+             android:id="@+id/bottom_linearLayout"
+             android:layout_width="match_parent"
+             android:layout_height="120dp"
+             android:layout_alignParentBottom="true"
+             android:background="#993d77c0"
+             android:gravity="center_vertical"
+             android:orientation="vertical">
+             
+             <TextView 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="最近同步"
+                 android:textSize="23sp"
+                 android:textColor="#ffffff"
+                 android:layout_gravity="center_vertical"
+                 android:layout_marginLeft="25dp"/>
+             
+              <TextView 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="2016/03/55"
+                 android:textSize="28sp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#ffffff"
+                 android:id="@+id/mainActivity_time_textview"
+                 android:layout_gravity="center_vertical"
+                 android:layout_marginLeft="25dp"/>
+             
+             
+         </LinearLayout>
+        
+         
+         <ImageButton 
+             android:id="@+id/roundImageButton"
+             android:layout_width="80dp"
+             android:layout_height="80dp"
+             android:layout_above="@+id/bottom_linearLayout"
+             android:layout_alignRight="@+id/bottom_linearLayout"
+             android:layout_marginRight="30dp"
+             android:layout_marginBottom="-40dp"
+             android:background="@drawable/syn_button"/>
+        
+        
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            
+            <ImageButton 
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:background="@drawable/phone"
+                android:id="@+id/content_phone"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/local"
+                android:textSize="22sp"
+                android:textColor="#3d77c0"
+                android:text="0"
+                android:layout_marginTop="5dp"/>
+            
+        </LinearLayout>
+        
+        <View 
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="#3d77c0"/>
+        
+        
+        
+        
+         <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            
+             
+              <ImageButton 
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:background="@drawable/yun_duan"
+                android:id="@+id/yunduan_"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cloud"
+                android:textSize="22sp"
+                android:textColor="#3d77c0"
+                android:text="0"
+                android:layout_marginTop="10dp"/>
+            
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+
+</com.qypt.just_syn_asis_version1_0.custom_view.CustomLinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        layout="@layout/header_blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tint_gray"
+        android:orientation="vertical" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_bg"
+            android:gravity="center"
+            android:height="45dp"
+            android:maxLength="18"
+            android:hint="请输入标题"
+            android:id="@+id/title_feedback_edittext"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/edit_bg"
+            android:gravity="left"
+            android:height="250dp"
+            android:maxLines="50"
+            android:maxLength="480"
+            android:id="@+id/content_feedback_edittext"
+            android:hint="请输入内容"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="反馈"
+                android:enabled="false"
+                android:textColor="#50f1f2f3"
+                android:id="@+id/feedback_feedback_button"
+                android:gravity="center"
+                android:background="@drawable/bg_bule" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

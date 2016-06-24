@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp" 
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:background="#FFB6C1">
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#11cd6e"
+        android:orientation="horizontal">
+        
+        <ImageView 
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/wechat_w"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wechat"
+            android:textSize="10sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:text="姓名:"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="岑晓中"
+                android:id="@+id/name_wechat_card"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="微信:"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15218486390"
+                android:id="@+id/account_wechat_card"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    
+</LinearLayout>

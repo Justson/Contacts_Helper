@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="150dp"
+    android:orientation="vertical" 
+    android:background="#80000000">
+   
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="请输入微信号和姓名~"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#f1f2f3"
+         />
+    
+    <EditText 
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+		android:layout_height="20dp"
+		android:background="@drawable/edit_bg"
+		android:layout_marginLeft="30dp"
+		android:hint="请输入姓名(不能为空)"
+		android:textSize="10sp"
+		android:gravity="center"
+		android:id="@+id/name_dialogactivity_edittext"
+		android:focusable="true"
+		android:textColor="#000000"
+		android:layout_marginRight="30dp"	/>
+
+      <EditText 
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+		android:layout_height="20dp"
+		android:textSize="10sp"
+		android:id="@+id/account_dialogactivity_edittext"
+		android:gravity="center"
+		android:focusable="true"
+		android:textColor="#000000"
+		android:hint="请输入微信号(不能为空)"
+		android:background="@drawable/edit_bg"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"	/>
+      
+       <TextView 
+           android:layout_width="40dp"
+           android:layout_height="30dp"
+           android:text="确定"
+           android:textColor="#3d77c0"
+           android:id="@+id/confir_dialogactivity_textview"
+           android:layout_gravity="center_horizontal"
+           android:gravity="center"
+           android:textSize="18sp"/>
+    
+</LinearLayout>

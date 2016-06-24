@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1f2f3" >
+    
+    <include 
+        layout="@layout/header_blue"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+
+    <RelativeLayout 
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/white">
+        
+        <ImageView 
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/a"
+            android:id="@+id/more_image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/auto_textview"
+            android:text="自动"
+            android:textSize="12sp"
+            android:textColor="@color/seal_blue"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/more_image"/>
+        <ImageView 
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/combine_sucess"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            />
+        
+    </RelativeLayout>
+    
+    
+       <RelativeLayout 
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/white">
+        
+        <ImageView 
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/c"
+            android:id="@+id/c_more_image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/c_auto_textview"
+            android:text="中文简体"
+            android:textSize="12sp"
+            android:textColor="@color/seal_blue"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/c_more_image"/>
+        <ImageView 
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/more_image_"
+            android:src="@drawable/combine_sucess"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            />
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="默认"
+            android:textSize="10sp"
+            android:layout_toLeftOf="@+id/more_image_"
+            android:layout_centerVertical="true"/>
+        
+    </RelativeLayout>
+    
+       
+       
+       
+    <RelativeLayout 
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/white">
+        
+        <ImageView 
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/e_"
+            android:id="@+id/e_more_image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/e_auto_textview"
+            android:text="英文"
+            android:textSize="12sp"
+            android:textColor="@color/seal_blue"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/e_more_image"/>
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:text="不可选"
+            android:textSize="10sp"
+            />
+        
+    </RelativeLayout>
+       
+    
+    
+    
+</LinearLayout>

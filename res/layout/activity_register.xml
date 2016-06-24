@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f2f3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3d77c0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/lefe_createaccnout_button"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/lefe"
+              />
+
+        <TextView
+            android:id="@+id/setting_createaccount_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="设置账号 "
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="40dp"
+        android:background="#999999" />
+
+    <EditText
+        android:id="@+id/phone_register_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#ffffff"
+        android:digits="0123456789"
+        android:gravity="center"
+        android:hint="输入手机号码"
+        android:textColor="#999999"
+        android:textSize="12sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#999999" />
+
+    <EditText
+        android:id="@+id/username_register_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="请输入用户名"
+        android:textColor="#999999"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#999999" />
+
+    <EditText
+        android:id="@+id/password_register_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="输入登录密码"
+        android:textColor="#999999"
+        android:inputType="textPassword"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#999999" />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="2">
+        
+         <EditText 
+             android:id="@+id/vatify_register_edittext"
+             android:layout_marginLeft="10dp"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:digits="0123456789"
+             android:textColor="#999999"
+             android:textSize="10sp"
+             android:hint="请输入验证码"
+             android:gravity="center"
+             android:layout_height="30dp"/>
+         <TextView 
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_height="30dp"
+             android:text="获取验证码"
+             android:textSize="12sp"
+             android:gravity="center"
+             android:id="@+id/getVatify_register_textview"
+             android:textColor="#333333"/>
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_createaccount_button"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="注册"
+        android:textSize="16sp" 
+        android:background="@drawable/bg_bule"/>
+
+</LinearLayout>

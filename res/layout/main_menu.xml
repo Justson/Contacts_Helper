@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <RelativeLayout
+            android:id="@+id/logined_menu_relativelayout"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3d77c0" >
+
+            <ImageView
+                android:id="@+id/menu_image_header"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/menu_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/menu_image_header"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/menu_image_header"
+                android:text="一种等候"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/menu_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/menu_name"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_toRightOf="@+id/menu_name"
+                android:text="648479176"
+                android:textColor="#50f1f2f3"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/acount_case"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/menu_image_header"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/menu_image_header"
+                android:background="@drawable/acount_bg"
+                android:scaleType="fitXY"
+                android:text="资料未保护"
+                android:textColor="#ffffff"
+                android:textSize="8sp" />
+        </RelativeLayout>
+        
+        
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#3d77c0"
+            android:id="@+id/unlogin_menu_relativelayout">
+            
+            <ImageView 
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/header_menu_imageview"
+                android:scaleType="fitXY"
+                android:src="@drawable/unlogin"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                />
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/myaccount_menu_textview"
+                android:text="我的账号"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/header_menu_imageview"
+                android:layout_toRightOf="@+id/header_menu_imageview"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/login_menu_textview"
+                android:text="请点击登录"
+                android:textColor="#50f1f2f3"
+                android:textSize="14sp"
+                android:layout_alignBottom="@+id/header_menu_imageview"
+                android:layout_toRightOf="@+id/header_menu_imageview"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="5dp"
+                />
+            
+        </RelativeLayout>
+        
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="#ffffff" >
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

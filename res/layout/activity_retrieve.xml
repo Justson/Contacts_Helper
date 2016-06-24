@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#3d77c0"
+        android:orientation="horizontal">
+        
+        <ImageView 
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/retrieve_left"
+            android:src="@drawable/lefe"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"/>
+        
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/retrieve_text"
+             android:textColor="#ffffff"
+             android:layout_gravity="center_vertical"
+             android:textSize="16sp"
+             android:layout_marginLeft="8dp"
+             android:text="找回联系人"/>
+        
+    </LinearLayout>
+    
+    
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#ffffff"
+        >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            
+           <TextView 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/find_retrieve_textview"
+                android:textColor="#3d77c0"
+                android:text="时光机"/>
+            
+             <TextView 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/rabish_retrieve_textview"
+                android:gravity="center"
+                android:textColor="#999999"
+                android:text="垃圾池"/>
+            
+            
+        </LinearLayout>
+       
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:gravity="bottom">
+            
+            <ImageView 
+                android:layout_marginLeft="0dp"
+                android:id="@+id/mImageView"
+                android:layout_width="190dp"
+                android:layout_height="1dp"
+                android:background="#3d77c0"
+                />
+        </LinearLayout>
+		  
+        
+    </FrameLayout>
+    
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myViewPager">
+        
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

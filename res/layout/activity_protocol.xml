@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include 
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        layout="@layout/header_blue"/>
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f1f2f3"
+        android:orientation="vertical">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="通信帮手软件使用协议" 
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#999999"
+            android:textSize="23sp"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1．
+            其它权利和限制说明。
+
+    禁止反向工程、反向编译和反向汇编：
+    您不得对本软件产品进行反向工程、反向编译和反向汇编。除非适用法律明文允许上述活动，否则您必须遵守此协议限制。
+
+    组件的分隔：
+    本软件产品是被当成一个单一产品而被授予许可使用，不得将各个部分分开用于任何目的行动。
+
+    软件产品转让：
+   本软件产品的第一被许可人可以对本《协议》及“软件产品”直接向一位最终用户作一次性的永久转让。该转让必须包括全部“软件产品”（包括所有组成部分、媒体及印刷材料、任何升级版本、本《协议》和，如适用的话，真品证书）。该转让不能是代买或其它间接转让。该一次性转让的受让人必须同意遵守本《协议》的各项条款，包括不再继续转让本《协议》和“软件产品”的义务。
+
+终止：
+如您未遵守本《协议》的各项条件，在不损害其它权利的情况下，版权人可将本《协议》终止。如发生此种情况，则您必须销毁“软件产品”及其各部分的所有副本。"/>
+        
+        
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2．著作权
+   本“软件产品”（包括但不限于本“软件产品”中所含的任何图象、照片、动画、录像、录音、音乐、文字和附加程序）、随附的印刷材料、及本“软件产品”的任何副本的产权和著作权，均由 藏文智能信息中心 或其供应商拥有。通过使用“软件产品”可访问的内容的一切所有权和知识产权均属于各自内容所有者拥有，并可能受适用著作权或其它知识产权法和条约的保护。本《协议》不授予您使用这些内容的权利。如果这份“软件产品”包括只以电子形式提供的文档，您可以打印一份该电子文档。您不可复制本“软件产品”随附的印刷材料。"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.有紧急情况，软件所属者做一些处理"/>  
+         <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.使用本软件，本軟件主要對聯繫人的管理，请同意本软件联系人权限，软件有不稳定情况，请谨慎保存好联系人，本软件不做任何保证。"/>   
+        
+          
+            <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.保证
+   本软件版权人藏文信息处理中心特此申明对本软件产品之使用不提供任何保证。版权人将不对任何用户保证本软件产品的适用性，不保证无故障产生；亦不对任何用户使用此软件所遭遇到的任何理论上的或实际上的损失承担负责。~"/>
+          
+    </LinearLayout>
+    
+    </ScrollView>
+
+</LinearLayout>

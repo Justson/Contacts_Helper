@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/item_bg">
+
+    <LinearLayout
+        android:id="@+id/navigateLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+
+        <TextView
+            android:id="@+id/navigate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="0dp"
+            android:text="A"
+            android:textColor="#999999"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/navigateLinearLayout" 
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/item_name_expired"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="6dp"
+            android:text="justson"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/item_number_expired"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/item_name_expired"
+            android:layout_marginLeft="35dp"
+            android:layout_toRightOf="@+id/item_name_expired"
+            android:text="15218486390"
+            android:textColor="#999999"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignBottom="@+id/item_number_expired"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="45dp"
+            android:button="@null"
+            android:focusable="false"
+            android:checked="false"
+            android:id="@+id/item_checkbox"
+            android:background="@drawable/check_select_unselect" />
+    </RelativeLayout>
+
+</RelativeLayout>

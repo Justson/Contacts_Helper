@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/head_robot"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#343434" >
+        
+        <ImageView 
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/lefe"
+            android:id="@+id/left_robot"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_toRightOf="@+id/left_robot"
+            android:text="问题"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:text="通信帮手"/>
+        
+    </RelativeLayout>
+    
+    <ListView 
+        android:layout_below="@+id/head_robot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/chat_robot"
+        android:layout_above="@+id/bottom_linearlayout_robot"
+        android:background="#10f1f1f1"
+        android:divider="@null"
+        android:scrollbars="none">
+        
+    </ListView>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/bottom_linearlayout_robot"
+        android:layout_alignParentBottom="true"
+        >
+        <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/content_robot"
+            android:layout_toLeftOf="@+id/send_robot"
+            android:background="@drawable/edit_bg"/>
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="发送"
+            android:layout_alignParentRight="true"
+            android:id="@+id/send_robot"
+            android:background="@drawable/edit_bg"
+            />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

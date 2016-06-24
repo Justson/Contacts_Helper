@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:gravity="center_vertical"
+    android:background="@drawable/item_bg">
+    
+    
+    <ImageView 
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/opration_"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/operation_linearlayout"
+        android:orientation="vertical">
+        
+        <LinearLayout 
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时间:"
+                android:textSize="12sp"
+                android:textColor="#333333"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016/5/4"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:id="@+id/time_opretion"
+                android:textColor="#333333"/>
+            
+        </LinearLayout>
+        
+        
+        <LinearLayout 
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="结果:"
+                android:textSize="12sp"
+                android:textColor="#333333"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="成功"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="#2200ff"
+                android:id="@+id/result_opretion"
+                />
+            
+        </LinearLayout>
+        
+        
+        
+         <LinearLayout 
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="同步后本机:"
+                android:textSize="12sp"
+                android:textColor="#333333"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="128个"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:id="@+id/local_opretion"
+                android:textColor="#333333"/>
+            
+        </LinearLayout>
+        
+            <LinearLayout 
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="同步后网络:"
+                android:textSize="12sp"
+                android:textColor="#333333"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="128个"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:id="@+id/cloud_opretion"
+                android:textColor="#333333"/>
+            
+        </LinearLayout>
+         
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

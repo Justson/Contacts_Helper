@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f2f3"
+      >
+      
+    <LinearLayout 
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/no_net_memory_linearlayout"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView 
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/no_pass"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/no_net_memory_textview"
+            android:text="没有网络哦"
+            android:textColor="#999999"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+        
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/net_memory_relativelayout"
+        >
+        
+         
+        
+        <ListView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/memory_listview"
+            android:layout_above="@+id/retrieve_contact_memory_button"
+            android:scrollbars="none">
+            
+        </ListView>
+        
+    </RelativeLayout>
+    
+
+</FrameLayout>

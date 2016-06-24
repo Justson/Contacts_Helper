@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:justson="http://schemas.android.com/apk/res/com.qypt.just_syn_asis_version1_0.activity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.qypt.just_syn_asis_version1_0.custom_view.SlidingMenu
+        android:id="@+id/mSlidingMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        justson:RightPadding="50dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:id="@+id/main">
+
+           <include layout="@layout/main_menu"
+               >
+           </include>
+           <include
+               layout="@layout/main_content">
+
+           </include>
+
+
+       </LinearLayout>
+
+
+    </com.qypt.just_syn_asis_version1_0.custom_view.SlidingMenu>
+
+
+
+
+
+
+</LinearLayout>
