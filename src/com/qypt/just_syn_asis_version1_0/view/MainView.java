@@ -4,6 +4,7 @@ public interface MainView {
 
 	void showProgressBar();
 	void hintProGrossBar();
+    //mvp
 	<T> void setData(T t);
 	void downLoad(String result);
 }
