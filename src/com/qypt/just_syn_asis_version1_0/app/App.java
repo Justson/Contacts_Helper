@@ -13,7 +13,7 @@ public class App extends Application {
 	public static String NAME;
 	
 	public static final int SUECEECODE=1;
-	
+	//单例
 	public static App mApp;
 	/**
 	 * 获取全局变量context
