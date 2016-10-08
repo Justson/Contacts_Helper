@@ -17,7 +17,7 @@ import android.util.TypedValue;
 public class BitmapUtils {
 
 	
-	
+	//create  bitmap
 	public static Bitmap getBitmapbyConfig(Context context,int width,int height,int resID)
 	{
 		BitmapFactory.Options options=new BitmapFactory.Options();
