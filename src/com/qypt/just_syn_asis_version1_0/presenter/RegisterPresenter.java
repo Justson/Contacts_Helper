@@ -10,7 +10,7 @@ import com.qypt.just_syn_asis_version1_0.view.RegisterView;
 /**
  * 
  * @author Administrator justson
- *
+ *RegisterPresenter
  */
 public class RegisterPresenter implements MyPresenter<RegisterView> ,IModePresenter {
 
