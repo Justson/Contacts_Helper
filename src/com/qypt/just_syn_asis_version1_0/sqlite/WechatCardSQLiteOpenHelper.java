@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 /**
  * 
  * @author Administrator justson
- *
+ *WechatCardSQLiteOpenHelper
  */
 public class WechatCardSQLiteOpenHelper extends SQLiteOpenHelper {
 
