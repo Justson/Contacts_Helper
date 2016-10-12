@@ -106,7 +106,7 @@ public class OperationActivity extends SynActivity implements OnClickListener, O
 			this.finish();
 		}
 	}
-
+	//
 	@Override
 	public boolean onItemLongClick(AdapterView<?> parent, View view,
 			int position, long id) {
