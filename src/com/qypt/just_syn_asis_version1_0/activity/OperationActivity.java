@@ -160,7 +160,7 @@ public class OperationActivity extends SynActivity implements OnClickListener, O
 	}
 
 	/**
-	 *deletePointData
+	 *deletePointData 
 	 * 删除指定条目操作记录
 	 * @param position 
 	 */
