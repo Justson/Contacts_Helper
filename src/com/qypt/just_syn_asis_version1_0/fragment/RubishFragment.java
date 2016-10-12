@@ -13,7 +13,7 @@ import android.widget.TextView;
 import com.qypt.just_syn_asis_version1_0.activity.R;
 import com.qypt.just_syn_asis_version1_0.app.App;
 import com.qypt.just_syn_asis_version1_0.utils.NetWorkHepler;
-
+ //RubishFragment laji
 public class RubishFragment  extends Fragment{
 
 	

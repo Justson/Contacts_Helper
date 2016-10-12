@@ -21,7 +21,7 @@ import com.qypt.just_syn_asis_version1_0.model.EventBussMessage;
 import com.qypt.just_syn_asis_version1_0.utils.NetWorkHepler;
 
 import de.greenrobot.event.EventBus;
-
+//
 public class MemoryFragment extends Fragment {
 
 	private View view;

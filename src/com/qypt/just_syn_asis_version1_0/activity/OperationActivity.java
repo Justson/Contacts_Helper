@@ -26,7 +26,7 @@ import com.qypt.just_syn_asis_version1_0.sqlite.SynSisSQLiteOpenHelper;
 /**
  * 
  * @author Administrator justson
- * 
+ * //option
  */
 public class OperationActivity extends SynActivity implements OnClickListener, OnItemLongClickListener {
 
@@ -116,7 +116,7 @@ public class OperationActivity extends SynActivity implements OnClickListener, O
 		
 		return false;
 	}
-
+	//tips
 	private void tipsUser(final int position) {
 		
 		AlertDialog.Builder builder=new AlertDialog.Builder(this,2);
@@ -160,8 +160,9 @@ public class OperationActivity extends SynActivity implements OnClickListener, O
 	}
 
 	/**
+	 *deletePointData
 	 * 删除指定条目操作记录
-	 * @param position
+	 * @param position 
 	 */
 	private void deletePointData(int position) {
 		
