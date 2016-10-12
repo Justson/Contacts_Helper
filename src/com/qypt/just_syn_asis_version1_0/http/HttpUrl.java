@@ -16,7 +16,7 @@ import android.util.Log;
  * 通过url访问的数据
  * 
  * @author Administrator justson
- * 
+ * url
  */
 public class HttpUrl {
 

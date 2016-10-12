@@ -435,7 +435,7 @@ public class HttpManager {
 	/**
 	 * 这里做了双重判断加锁，防止并发多次new而且保证性能
 	 * 
-	 * @return
+	 * @return 单例 HttpManager
 	 */
 	public static HttpManager getInstance() {
 		if (mHttpManager == null) {
