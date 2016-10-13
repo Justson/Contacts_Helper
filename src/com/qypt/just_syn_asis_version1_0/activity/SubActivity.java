@@ -75,7 +75,7 @@ public class SubActivity extends SynActivity{
 	protected void onCreate(Bundle savedInstanceState) {
 		setContentView(R.layout.activity_main);
 		super.onCreate(savedInstanceState);
-		
+		//
 		
 	}
 
