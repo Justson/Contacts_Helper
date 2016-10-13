@@ -240,6 +240,7 @@ public class SubActivity extends SynActivity{
 			return;
 		v.clearAnimation();
 	}
+	//自定义Toast
 	protected void showToastToTipsUser() {
 
 		Toast mToast = new Toast(getApplicationContext());
