@@ -206,7 +206,7 @@ public class SubActivity extends SynActivity{
 				R.drawable.photo, R.drawable.syn, R.drawable.find_back_contact,
 				R.drawable.setting, R.drawable.message };
 		String[] text_ = new String[] { "通讯录管理", "照片备份", "同步联系人", "找回联系人",
-				"设置", "反馈" };
+				"设置", "反 馈" };
 
 		if (list == null) {
 			list = new ArrayList<Map<String, Object>>();
