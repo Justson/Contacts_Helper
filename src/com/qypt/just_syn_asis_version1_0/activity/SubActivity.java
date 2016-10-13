@@ -39,7 +39,7 @@ import com.qypt.just_syn_asis_version1_0.sqlite.SynSisSQLiteOpenHelper;
 import com.qypt.just_syn_asis_version1_0.utils.ContactUtils;
 /**
  * 
- * @author Administrator justson
+ * @author Administrator justson cenxiaozhong
  *
  */
 public class SubActivity extends SynActivity{
