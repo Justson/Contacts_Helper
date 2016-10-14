@@ -67,6 +67,7 @@ public class RobotActivity extends SynActivity implements OnClickListener {
 	public void onClick(View v) {
 
 		switch (v.getId()) {
+			//send
 		case R.id.send_robot:
 			sendMessage();
 			break;
