@@ -9,7 +9,7 @@ import android.widget.TextView;
 /**
  * 
  * @author Administrator justson
- *
+ *more language
  */
 public class MoreLanguageActivity  extends Activity implements OnClickListener{
 	
