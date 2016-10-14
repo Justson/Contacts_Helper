@@ -24,7 +24,7 @@ import com.qypt.just_syn_asis_version1_0.utils.TimerUtils;
 /**
  * 
  * @author Administrator justson
- * //机器人聊天 
+ * //机器人聊天 用了图灵机器人
  */
 public class RobotActivity extends SynActivity implements OnClickListener {
 
