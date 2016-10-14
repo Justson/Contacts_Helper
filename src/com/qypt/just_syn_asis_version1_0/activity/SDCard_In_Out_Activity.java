@@ -10,7 +10,7 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
+//author  cenxiaozhong
 public class SDCard_In_Out_Activity extends Activity implements OnClickListener {
 
 	public void onCreate(Bundle savedInstanceState) {
