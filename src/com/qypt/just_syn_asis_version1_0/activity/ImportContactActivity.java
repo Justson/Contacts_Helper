@@ -73,7 +73,7 @@ public class ImportContactActivity extends Activity implements OnItemClickListen
 		arrFiles = file.listFiles();
 
 		list = parserFile(arrFiles);
-		
+		//dialog
 		view_dialog = LayoutInflater.from(this).inflate(R.layout.dialog_tips_call, null);
 
 	}
