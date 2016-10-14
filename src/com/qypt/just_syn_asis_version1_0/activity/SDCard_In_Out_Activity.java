@@ -33,7 +33,7 @@ public class SDCard_In_Out_Activity extends Activity implements OnClickListener 
 		combackImageView.setOnClickListener(this);
 
 	}
-	//
+	//onclick event
 	@Override
 	public void onClick(View v) {
 
