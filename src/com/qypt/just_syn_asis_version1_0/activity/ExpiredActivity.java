@@ -30,7 +30,7 @@ import com.qypt.just_syn_asis_version1_0.utils.DialogUtils;
 /**
  * 
  * @author Administrator justson
- *
+ * 过期
  */
 public class ExpiredActivity extends Activity implements OnClickListener,
 		OnTouchListener {
