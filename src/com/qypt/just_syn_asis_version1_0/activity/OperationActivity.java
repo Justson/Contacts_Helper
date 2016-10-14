@@ -101,7 +101,7 @@ public class OperationActivity extends SynActivity implements OnClickListener, O
 	@Override
 	public void onClick(View v) {
 
-		
+			
 		if(v.getId()==R.id.left){
 			this.finish();
 		}
