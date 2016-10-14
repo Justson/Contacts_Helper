@@ -111,7 +111,7 @@ public class OperationActivity extends SynActivity implements OnClickListener, O
 	public boolean onItemLongClick(AdapterView<?> parent, View view,
 			int position, long id) {
 		
-		
+		//tipsUser
 		tipsUser(position);
 		
 		return false;
