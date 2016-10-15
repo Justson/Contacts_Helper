@@ -12,7 +12,7 @@ import com.qypt.just_syn_asis_version1_0.bitmapUtils.BitmapUtils;
 /**
  * 
  * @author Administrator justson   5/8
- *
+ *about
  */
 public class AboutActivity extends SynActivity implements OnClickListener {
 
