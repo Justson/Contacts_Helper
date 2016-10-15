@@ -67,7 +67,7 @@ import de.greenrobot.event.EventBus;
 /**
  * 
  * @author Administrator justson
- * 
+ * 	
  */
 public class MainActivity extends SubActivity implements MainView,
 		OnClickListener, OnItemClickListener {
