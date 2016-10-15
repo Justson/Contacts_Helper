@@ -32,7 +32,7 @@ import com.qypt.just_syn_asis_version1_0.utils.DialogUtils;
 /**
  * 
  * @author Administrator justson
- * 
+ * 	share
  */
 public class ShareActivity extends SynActivity implements OnClickListener, OnTouchListener {
 
