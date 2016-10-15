@@ -22,7 +22,7 @@ import com.qypt.just_syn_asis_version1_0.bitmapUtils.BitmapUtils;
 /**
  * 
  * @author Administrator justson
- *	
+ *	c
  */
 public class ContactManageActivity extends Activity implements OnLongClickListener, OnItemClickListener, OnClickListener {
 
