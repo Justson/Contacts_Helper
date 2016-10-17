@@ -89,7 +89,7 @@ public class MainActivity extends SubActivity implements MainView,
 
 		setListenerForWidget();
 	}
-
+	//设置监听
 	private void setListenerForWidget() {
 		
 		myListView.setOnItemClickListener(this);
