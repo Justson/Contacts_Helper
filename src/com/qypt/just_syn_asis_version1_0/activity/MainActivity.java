@@ -112,7 +112,7 @@ public class MainActivity extends SubActivity implements MainView,
 	public void onClick(View v) {
  
 		switch (v.getId()) {
-		case R.id.button:
+		case R.id.button://switch
 			mSlidingMenu.switchButton();
 			break;
 		case R.id.roundImageButton:
