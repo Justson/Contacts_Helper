@@ -218,7 +218,7 @@ public class MainActivity extends SubActivity implements MainView,
 	 */
 	private void passOnLoginActivity() {
 
-		Intent mIntent = new Intent(this, LoginActivity.class);
+		Intent mIntent = new Intent(this, LoginActivity.class);//
 		startActivityForResult(mIntent, 0);
 
 	}
