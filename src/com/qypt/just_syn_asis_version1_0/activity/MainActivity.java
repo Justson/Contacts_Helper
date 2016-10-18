@@ -110,7 +110,7 @@ public class MainActivity extends SubActivity implements MainView,
 	//onclick
 	@Override
 	public void onClick(View v) {
-
+ 
 		switch (v.getId()) {
 		case R.id.button:
 			mSlidingMenu.switchButton();
