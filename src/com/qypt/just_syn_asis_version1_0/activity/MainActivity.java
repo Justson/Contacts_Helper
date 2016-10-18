@@ -107,7 +107,7 @@ public class MainActivity extends SubActivity implements MainView,
 		number = ContactUtils.getContactNumber(this);
 		local.setText(number + "");
 	}
-
+	//onclick
 	@Override
 	public void onClick(View v) {
 
