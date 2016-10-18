@@ -328,9 +328,11 @@ public class MainActivity extends SubActivity implements MainView,
 
 			break;
 		case 1:
+		//
 			Toast.makeText(this, "此功能暂没开放", Toast.LENGTH_SHORT).show();
 			break;
 		case 2:
+		//mSlidingMenu
 			mSlidingMenu.switchButton();
 			break;
 		case 3:
