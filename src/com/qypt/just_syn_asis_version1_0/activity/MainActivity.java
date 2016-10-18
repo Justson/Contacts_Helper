@@ -320,6 +320,7 @@ public class MainActivity extends SubActivity implements MainView,
 
 		
 		switch (position) {
+			//ContactManageActivity
 		case 0:
 			smoothToContentPager();
 			Intent mIntent = new Intent(this, ContactManageActivity.class);
