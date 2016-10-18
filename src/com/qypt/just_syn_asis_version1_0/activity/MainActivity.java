@@ -125,7 +125,7 @@ public class MainActivity extends SubActivity implements MainView,
 			break;
 		case R.id.logined_menu_relativelayout:
 			
-			if(!isLogin)
+			if(!isLogin) //login
 			{
 				passOnLoginActivity();
 				return;
