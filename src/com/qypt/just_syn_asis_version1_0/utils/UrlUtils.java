@@ -1,7 +1,7 @@
 package com.qypt.just_syn_asis_version1_0.utils;
 
 public class UrlUtils {
-
+	//address
 	public static final String DOWNDATA="http://115.28.146.253:8080/HttpSnySisService/servlet/DownSynServlet";
 	public static final String UPDATA="  http://115.28.146.253:8080/HttpSnySisService/servlet/SynServlet";
 	public static final String REGISTER="http://115.28.146.253:8080/HttpSnySisService/servlet/RegisterServlet";
