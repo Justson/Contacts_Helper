@@ -5,7 +5,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 /**
  * 
- * @author Administrator justson  
+ * @author Administrator justson cenxiaozhong 
  *
  */
 public class NetWorkHepler {
