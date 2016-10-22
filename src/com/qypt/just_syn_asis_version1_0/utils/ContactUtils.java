@@ -121,7 +121,7 @@ public class ContactUtils {
 		return number;
 	}
 	
-	/**
+	/** 
 	 * 删除所有联系人
 	 */
 	public static boolean deleteAllContact(Context context)
