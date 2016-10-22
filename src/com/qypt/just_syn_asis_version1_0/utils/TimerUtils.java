@@ -7,7 +7,7 @@ import android.text.format.DateFormat;
 /**
  * 
  * @author Administrator justson
- *
+ * 计算时间
  */
 public class TimerUtils {
 
