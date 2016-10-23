@@ -15,7 +15,7 @@ import android.widget.TextView;
 /**
  * 
  * @author Administrator justson
- *//adapter
+ *adapter
  */
 public class ImportBaseAdapter extends BaseAdapter {
 
