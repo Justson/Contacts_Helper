@@ -32,7 +32,7 @@ import com.qypt.just_syn_asis_version1_0.utils.UrlUtils;
 /**
  * 
  * @author Administrator justson
- *RetrieveCommAdapter 
+ *RetrieveCommAdapter  
  */
 public class RetrieveCommAdapter extends CommAdapter<DataBaseBean> implements OnClickListener, OkHttpCallBack<String> {
 
