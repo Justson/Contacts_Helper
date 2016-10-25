@@ -18,6 +18,7 @@ import com.qypt.just_syn_asis_version1_0.model.PhoneMessage;
 
 /**
  * Created by Administrator justson on 2016/4/14.
+ * cenxiaozhong
  */
 public class MyBaseAdapterWithCommAdapter extends CommAdapter<PhoneMessage> {
 
