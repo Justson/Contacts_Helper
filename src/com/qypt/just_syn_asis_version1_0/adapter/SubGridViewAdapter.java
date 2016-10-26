@@ -33,7 +33,7 @@ public class SubGridViewAdapter  extends GridViewBaseAdapter<WechatBean> impleme
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		
+		 
 		WechatBean mWechatBean=list.get(position);
 		boolean tag=mWechatBean.isNewAccount();
 		
