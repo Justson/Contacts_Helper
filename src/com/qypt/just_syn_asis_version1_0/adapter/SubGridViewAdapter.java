@@ -21,7 +21,7 @@ import com.qypt.just_syn_asis_version1_0.model.WechatBean;
 import com.qypt.just_syn_asis_version1_0.sqlite.WechatCardSQLiteOpenHelper;
 /**
  * 
- * @author Administrator justson 
+ * @author Administrator justson
  *
  */
 public class SubGridViewAdapter  extends GridViewBaseAdapter<WechatBean> implements OnLongClickListener, OnClickListener {
