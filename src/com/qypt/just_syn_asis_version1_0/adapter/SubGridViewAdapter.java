@@ -30,7 +30,7 @@ public class SubGridViewAdapter  extends GridViewBaseAdapter<WechatBean> impleme
 	public SubGridViewAdapter(Context context, List<WechatBean> list) {
 		super(context, list);
 	}
-
+	//getView
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 		 
