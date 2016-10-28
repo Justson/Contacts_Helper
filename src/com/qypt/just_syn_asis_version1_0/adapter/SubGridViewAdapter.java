@@ -44,7 +44,7 @@ public class SubGridViewAdapter  extends GridViewBaseAdapter<WechatBean> impleme
 			mViewHolder=new ViewHolder();
 			mViewHolder.name=(TextView) convertView.findViewById(R.id.name_wechat_card);
 			mViewHolder.account=(TextView) convertView.findViewById(R.id.account_wechat_card);
-			convertView.setTag(mViewHolder);
+			convertView.setTag(mViewHolder); 
 		}
 		
 		
