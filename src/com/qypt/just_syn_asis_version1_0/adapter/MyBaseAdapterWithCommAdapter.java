@@ -52,7 +52,7 @@ public class MyBaseAdapterWithCommAdapter extends CommAdapter<PhoneMessage> {
 		} else {
 			mLinearLayout.setVisibility(View.GONE);
 		}
-		if (mViewHolder == null)
+		if (mViewHolder == null) 
 			return;
 
 		ViewHolder viewHolder = mViewHolder.setData(R.id.item_name_expired,
