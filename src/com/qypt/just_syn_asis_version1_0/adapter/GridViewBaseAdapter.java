@@ -59,7 +59,7 @@ public abstract class GridViewBaseAdapter<T> extends BaseAdapter {
 		v.startAnimation(view_in_animation);
 	}
 	
-	@Override
+	@Override//大小
 	public int getCount() {
 		// TODO Auto-generated method stub
 		return list.size();
