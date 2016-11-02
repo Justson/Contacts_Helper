@@ -26,7 +26,7 @@ public abstract class GridViewBaseAdapter<T> extends BaseAdapter {
 	protected Animation view_out_animation;
 	protected LayoutInflater mLayoutInflater;
 	protected Intent mIntent;
-	
+	//c
 	public GridViewBaseAdapter(Context context,List<T>list)
 	{
 		this.context=context;
