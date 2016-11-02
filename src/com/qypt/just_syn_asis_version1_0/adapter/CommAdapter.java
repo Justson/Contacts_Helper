@@ -13,7 +13,7 @@ import com.qypt.just_syn_asis_version1_0.activity.R;
 
 /**
  * Created by Administrator  justson on 2016/4/14.
- *  //time
+ *  //time 
  * 万能适配器
  */
 public abstract class CommAdapter<T> extends BaseAdapter {
