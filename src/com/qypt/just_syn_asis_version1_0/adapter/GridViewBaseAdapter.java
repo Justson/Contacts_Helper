@@ -71,7 +71,7 @@ public abstract class GridViewBaseAdapter<T> extends BaseAdapter {
 		return list.get(position);
 	}
 
-	@Override
+	@Override //id
 	public long getItemId(int position) {
 		// TODO Auto-generated method stub
 		return position;
