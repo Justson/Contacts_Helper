@@ -5,7 +5,7 @@ import android.test.ActivityTestCase;
 /**
  * 
  * @author Administrator justson
- *基类
+ * 基类
  */
 public abstract class SynActivity extends Activity {
 
