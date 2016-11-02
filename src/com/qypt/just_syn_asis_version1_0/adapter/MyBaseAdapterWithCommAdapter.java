@@ -68,7 +68,7 @@ public class MyBaseAdapterWithCommAdapter extends CommAdapter<PhoneMessage> {
 			@Override
 			public void onClick(View v) {
 				
-				if (mCheckBox.isChecked()) { 
+				if (mCheckBox.isChecked()) {  
 
 					int position = (Integer) mCheckBox.getTag();
 					mSparseArray.put(position, true);
