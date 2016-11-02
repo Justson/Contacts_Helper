@@ -47,7 +47,7 @@ public abstract class GridViewBaseAdapter<T> extends BaseAdapter {
 	
 	/**
 	 * 执行View消失的动画
-	 * @param v 
+	 * @param v
 	 */
 	protected void startViewDismissAnimation(View v)
 	{
