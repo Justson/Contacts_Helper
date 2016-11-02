@@ -16,7 +16,7 @@ import com.qypt.just_syn_asis_version1_0.activity.R;
  * 
  * @author Administrator juston 
  *
- * 进行封装 
+ * 进行封装   
  */
 public abstract class GridViewBaseAdapter<T> extends BaseAdapter {
 
