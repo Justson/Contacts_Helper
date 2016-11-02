@@ -76,7 +76,7 @@ public abstract class GridViewBaseAdapter<T> extends BaseAdapter {
 		// TODO Auto-generated method stub
 		return position;
 	}
-
+	//view
 	@Override
 	public abstract View getView(int position, View convertView, ViewGroup parent) ;
 
