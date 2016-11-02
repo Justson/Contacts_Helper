@@ -24,7 +24,7 @@ public class ContactFragmentPagerAdapter extends FragmentPagerAdapter {
 		return list.get(position);
 	}
 
-	@Override
+	@Override //size
 	public int getCount() {
 		return list.size();
 	}
