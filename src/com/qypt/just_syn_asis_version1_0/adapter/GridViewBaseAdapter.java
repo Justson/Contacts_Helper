@@ -37,7 +37,7 @@ public abstract class GridViewBaseAdapter<T> extends BaseAdapter {
 	 *  初始化一些动画
 	 */
 	private void init() {
-		//
+		//	
 		view_in_animation = AnimationUtils.loadAnimation(context, R.anim.view_fade_in_scale_big);
 		view_out_animation = AnimationUtils.loadAnimation(context, R.anim.view_fade_out_scale_small);
 		
