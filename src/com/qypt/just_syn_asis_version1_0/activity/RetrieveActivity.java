@@ -36,7 +36,7 @@ import android.widget.TextView;
 /**
  * 
  * @author Administrator justson
- *
+ * 
  */
 public class RetrieveActivity extends FragmentActivity implements
 		OnClickListener, OnPageChangeListener ,MainView{
