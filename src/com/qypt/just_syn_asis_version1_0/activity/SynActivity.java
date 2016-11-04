@@ -16,7 +16,7 @@ public abstract class SynActivity extends Activity {
 		
 	};
 
-	
+		
 	protected abstract void initView();
 	protected abstract void initViewData();
 	
