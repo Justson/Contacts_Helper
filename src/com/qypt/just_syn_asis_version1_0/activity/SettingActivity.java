@@ -14,7 +14,7 @@ import android.widget.RelativeLayout;
 /**
  * 
  * @author Administrator justson
- *
+ * setting
  */
 public class SettingActivity extends Activity implements OnClickListener {
 
