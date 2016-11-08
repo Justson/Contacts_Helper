@@ -18,7 +18,7 @@ public class ProtocalActivity extends SynActivity implements OnClickListener {
 		ImageView image=(ImageView) findViewById(R.id.left);
 		TextView text=(TextView) findViewById(R.id.text);
 		text.setText("协议");
-		image.setOnClickListener(this);
+		image.setOnClickListener(this);  
 	}
 
 	@Override
