@@ -73,7 +73,7 @@ public class SettingActivity extends Activity implements OnClickListener {
 
 		question_syn_linearlayout = (LinearLayout) findViewById(R.id.question_syn_linearlayout);
 		question_syn_linearlayout.setOnClickListener(this);
-
+        
 		guanyu_syn_linearlayout = (LinearLayout) findViewById(R.id.guanyu_syn_linearlayout);
 		guanyu_syn_linearlayout.setOnClickListener(this);
 
