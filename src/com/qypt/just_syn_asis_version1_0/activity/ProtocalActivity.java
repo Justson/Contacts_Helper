@@ -26,7 +26,7 @@ public class ProtocalActivity extends SynActivity implements OnClickListener {
 		
 	}
 	
-  @Override
+  @Override 
 protected void onPause() {
 	  overridePendingTransition(0, R.anim.top_out_fade_out);
 	super.onPause();
