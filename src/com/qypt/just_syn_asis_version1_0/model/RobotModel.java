@@ -12,7 +12,7 @@ import com.qypt.just_syn_asis_version1_0.utils.UrlUtils;
 /**
  * 
  * @author Administrator justson
- * 
+ *  
  */
 public class RobotModel {
 
