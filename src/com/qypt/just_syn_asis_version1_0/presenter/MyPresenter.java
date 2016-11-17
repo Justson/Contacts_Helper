@@ -9,7 +9,7 @@ package com.qypt.just_syn_asis_version1_0.presenter;
 public interface MyPresenter<T> {
     //attach
 	void attachView(T t);
-    //dispatch
+    //dispatch 
 	void dispatchView(T t);
 	
 	
