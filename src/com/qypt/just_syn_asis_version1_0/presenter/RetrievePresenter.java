@@ -7,7 +7,7 @@ import com.qypt.just_syn_asis_version1_0.view.MainView;
 /**
  * 
  * @author Administrator justson
- * cxz
+ * cxz 
  */
 public class RetrievePresenter  implements MyPresenter<MainView> ,RetrieveModelPresenter {
 
