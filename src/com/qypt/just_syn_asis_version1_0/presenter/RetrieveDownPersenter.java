@@ -22,7 +22,7 @@ public class RetrieveDownPersenter implements RetrieveModelPresenter,MyPresenter
 	@Override
 	public <T> void getDataSucess(T t) {
 		
-	}
+	} 
 
 	@Override
 	public void getDataFail() {
