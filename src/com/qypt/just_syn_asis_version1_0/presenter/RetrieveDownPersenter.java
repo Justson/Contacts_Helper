@@ -5,7 +5,7 @@ import com.qypt.just_syn_asis_version1_0.view.MainView;
 /**
  * 
  * @author Administrator justson  已废
- *
+ * 
  */
 public class RetrieveDownPersenter implements RetrieveModelPresenter,MyPresenter<MainView> {
 
