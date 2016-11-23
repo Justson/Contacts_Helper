@@ -10,6 +10,6 @@ public class UrlUtils {
 	public static final String FEEDBACK="http://115.28.146.253:8080/HttpSnySisService/servlet/FeedbackServlet";
 	public static final String CONTACTMENORY="http://115.28.146.253:8080/HttpSnySisService/servlet/ContactMemoryServlet";
 	public static final String POINTFILEDOWN="http://115.28.146.253:8080/HttpSnySisService/servlet/DownPointServlet";
-	public static final String TULINGROBOT="http://www.tuling123.com/openapi/api"; //tuling
+	public static final String TULINGROBOT="http://www.tuling123.com/openapi/api"; //tuling 
 	
 }
