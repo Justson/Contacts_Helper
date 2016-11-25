@@ -11,7 +11,7 @@ import android.net.NetworkInfo;
 public class NetWorkHepler {
 
 	/**
-	 * 判断网络是否可用
+	 * 判断网络是否可用 
 	 * @param context
 	 * @return
 	 */
