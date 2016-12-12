@@ -9,7 +9,7 @@ import com.qypt.just_syn_asis_version1_0.utils.UrlUtils;
 /**
  * 
  * @author Administrator justson
- *  cxz 
+ *  cxz  
  */
 public class RetrieveModel implements IModel, OkHttpCallBack<String> {
 
