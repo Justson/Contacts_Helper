@@ -10,7 +10,7 @@
         android:layout_weight="1"
         android:background="#3d77c0" >
 
-        <ImageView
+        <ImageView 
             android:id="@+id/Simibt1"
             android:layout_width="20dp"
             android:layout_height="20dp"
