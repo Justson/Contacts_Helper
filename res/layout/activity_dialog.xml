@@ -10,7 +10,7 @@
         android:layout_height="35dp"
         android:text="请输入微信号和姓名~"
         android:gravity="center"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textColor="#f1f2f3"
          />
     
