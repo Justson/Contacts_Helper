@@ -40,7 +40,7 @@
             android:src="@drawable/combine_sucess"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:layout_marginRight="15dp"
+            android:layout_marginRight="14dp"
             />
         
     </RelativeLayout>
