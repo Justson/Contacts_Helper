@@ -11,7 +11,7 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="0.1dp"
+        android:layout_height="1px"
         android:background="#f1f2f3" />
 
     <ListView
