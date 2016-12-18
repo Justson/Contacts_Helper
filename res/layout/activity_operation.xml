@@ -6,7 +6,7 @@
 
     <include
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="54dp"
         layout="@layout/header_blue" />
     
     
