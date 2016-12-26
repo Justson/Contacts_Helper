@@ -34,7 +34,7 @@
             android:textColor="#ffffff"
             android:id="@+id/share_share_button"
             android:layout_marginLeft="18dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="18dp"
             android:background="#0ea0bf"/>
         
     </LinearLayout>
