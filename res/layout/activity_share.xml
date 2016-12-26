@@ -33,7 +33,7 @@
             android:text="打包并分享"
             android:textColor="#ffffff"
             android:id="@+id/share_share_button"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="18dp"
             android:layout_marginRight="20dp"
             android:background="#0ea0bf"/>
         
