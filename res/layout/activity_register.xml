@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="2dp"
+            android:layout_marginLeft="4dp"
             android:text="设置账号 "
             android:textColor="#ffffff"
             android:textSize="16sp" />
@@ -34,7 +34,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0.1dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="38dp"
         android:background="#999999" />
 
     <EditText
