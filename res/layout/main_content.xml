@@ -17,7 +17,7 @@
             android:id="@+id/button"
             android:layout_width="30sp"
             android:layout_height="30sp"
-            android:layout_marginLeft="6dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/morew" />
         
@@ -27,7 +27,7 @@
             android:id="@+id/action_bar_name"
             android:text="通讯帮手"
             android:textColor="#ffffff"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:layout_toRightOf="@id/button"
             android:layout_alignBaseline="@+id/button"
             android:layout_marginLeft="15dp"/>
