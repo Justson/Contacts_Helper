@@ -75,7 +75,7 @@
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:text="2016/03/55"
-                 android:textSize="28sp"
+                 android:textSize="26sp"
                  android:layout_marginTop="5dp"
                  android:textColor="#ffffff"
                  android:id="@+id/mainActivity_time_textview"
