@@ -9,7 +9,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:id="@+id/toast_text"
-        android:textColor="#f1f2f3"
+        android:textColor="#f1f2f4"
         android:gravity="center"
         android:text="没有可用网络哦!"/>
     
