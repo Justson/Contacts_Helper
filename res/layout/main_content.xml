@@ -126,7 +126,7 @@
                 android:id="@+id/local"
                 android:textSize="22sp"
                 android:textColor="#3d77c0"
-                android:text="0"
+                android:text="1"
                 android:layout_marginTop="5dp"/>
             
         </LinearLayout>
