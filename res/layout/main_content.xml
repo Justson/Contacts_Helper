@@ -159,7 +159,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/cloud"
-                android:textSize="22sp"
+                android:textSize="20sp"
                 android:textColor="#3d77c0"
                 android:text="0"
                 android:layout_marginTop="10dp"/>
