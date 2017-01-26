@@ -21,8 +21,8 @@
         android:id="@+id/phone_listview_item_sucess"
         android:text="15218486390"
         android:textColor="#999999"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="6dp"
         android:layout_below="@+id/name_listview_item_sucess"
         android:layout_marginBottom="6dp"
         android:textSize="16sp"/>
