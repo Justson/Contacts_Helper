@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="14dp"
             android:text="正在删除......"
-            android:textColor="#43bfe1"
+            android:textColor="#43bfe2"
             android:textSize="14sp" />
     </LinearLayout>
 
