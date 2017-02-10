@@ -33,7 +33,7 @@
         android:id="@+id/name_item_"
         android:text="justson"
         android:textSize="18sp"
-        android:layout_marginLeft="15sp"
+        android:layout_marginLeft="14sp"
         android:layout_marginTop="10dp"/>
 
     <TextView 
@@ -42,7 +42,7 @@
         android:id="@+id/number_item_"
         android:text="15218486390"
         android:textSize="14sp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="4dp"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="15sp"
         android:textColor="#666666"/>
